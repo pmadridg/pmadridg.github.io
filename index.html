@@ -873,14 +873,17 @@
   <section class="hero">
     <div class="hero-video-container">
       <div class="hero-video-wrapper">
-        <iframe
+ 		<video
           class="hero-video"
-          src="https://www.youtube.com/embed/gXFATcwrO-U?autoplay=1&mute=1&loop=1&playlist=XAbDu9uQOwk&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&disablekb=1&fs=0&iv_load_policy=3"
-          title="Background video"
-          allow="autoplay; encrypted-media"
-          frameborder="0"
-	  referrerpolicy="strict-origin-when-cross-origin"
-        ></iframe>
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+        >
+          <source src="https://videos.pexels.com/video-files/4629775/4629775-uhd_3840_2160_25fps.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       </div>
       <div class="hero-overlay"></div>
       <div class="hero-gradient"></div>
