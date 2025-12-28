@@ -1284,6 +1284,10 @@
       if (response.ok) {
         form.reset(); // clear inputs
         alert('Message sent successfully.');
+            window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
       } else {
         alert('There was an error submitting the form.');
       }
